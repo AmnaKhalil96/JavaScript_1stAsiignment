@@ -7,53 +7,74 @@
   </head>
   <body></body>
   <script>
-    // var num1 = 4;
-    // var num2 = 2;
-    // var ans1 = num1 + num2;
-    // document.write("Sum of", " ", num1, " ", "and", " ", num2, " ", "is", " ", ans1);
-
-    // var num21 = 4;
-    // var num22 = 2;
-    // var ans2 = num21 - num22;
-    // document.write("Subtraction of", " ", num21, " ", "and", " ", num22, " ", "is", " ", ans2);
-
-    // var num31 = 4;
-    //      var num32 = 2;
-    //      var ans3 = num31 * num32;
-    //      document.write("Multiplication of", " ", num31, " ", "and", " ", num32, " ", "is", " ", ans3);
-
-    //  var num41 = 4;
-    //       var num42 = 2;
-    //      var ans4 = num41 / num42;
-    //       document.write("Division of", " ", num41, " ", "and", " ", num42, " ", "is", " ", ans4);
-
-    // var num51 = 4;
-    //      var num52 = 3;
-    //      var ans5 = num51 % num52;
-    //      document.write("Reminder of", " ", num51, " ", "and", " ", num52, " ", "is", " ", ans5);
-
-    // var var1 = ("");
-    // document.write("Value after variable declaration is undefined <br>");
-    // var var1 = 5;
-    // document.write("Initial value: ", var1);
-    // var1++;
-    // document.write("<br> Value after increment is: ", var1);
-    // var1 = var1 + 7;
-    // document.write("<br> Value after addition is: ", var1);
-    // var1--;
-    // document.write("<br> Value after decreament is: ", var1);
-    // var1 = var1 % 3;
-    // document.write("<br> The remainder is: ", var1);
-
-    // var costPerTicket = 600;
-    // var numberOfTickets = 5;
-    // var totalCost = costPerTicket * numberOfTickets;
-    // document.write("<br> Total cost to buy", " ", numberOfTickets, " ", "tickets to a movie is"," ", totalCost, "PKR");
-
+    // Question No 01 Write a program that take two numbers and add them in a new variable. show the result in your browser.
     var heading = 
-     document.createElement("h1");
-     heading.textContent = "Table of 4";
-     document.body.appendChild(heading);
+      document.createElement("h1");
+      heading.textContent = "Answer No 01";
+      document.body.appendChild(heading); 
+    var num1 = 4;
+     var num2 = 2;
+     var ans1 = num1 + num2;
+     document.write("Sum of", " ", num1, " ", "and", " ", num2, " ", "is", " ", ans1);
+
+// Question No 02 Repeate task1 for subtraction, multiplication, division and modulus.
+var heading = 
+      document.createElement("h1");
+      heading.textContent = "Answer No 02";
+      document.body.appendChild(heading);
+     var num21 = 4;
+     var num22 = 2;
+     var ans2 = num21 - num22;
+     document.write("<br> Subtraction of", " ", num21, " ", "and", " ", num22, " ", "is", " ", ans2);
+
+     var num31 = 4;
+          var num32 = 2;
+          var ans3 = num31 * num32;
+          document.write("<br> Multiplication of", " ", num31, " ", "and", " ", num32, " ", "is", " ", ans3);
+
+      var num41 = 4;
+           var num42 = 2;
+          var ans4 = num41 / num42;
+           document.write("<br> Division of", " ", num41, " ", "and", " ", num42, " ", "is", " ", ans4);
+
+     var num51 = 4;
+          var num52 = 3;
+          var ans5 = num51 % num52;
+          document.write("<br> Reminder of", " ", num51, " ", "and", " ", num52, " ", "is", " ", ans5);
+
+          // Question No 03 Do the following using JS Mathematic Expressions
+          var heading = 
+      document.createElement("h1");
+      heading.textContent = "Answer No 03";
+      document.body.appendChild(heading);
+     var var1 = ("");
+     document.write("<br> Value after variable declaration is undefined <br>");
+     var var1 = 5;
+     document.write("<br> Initial value: ", var1);
+     var1++;
+     document.write("<br> Value after increment is: ", var1);
+     var1 = var1 + 7;
+     document.write("<br> Value after addition is: ", var1);
+     var1--;
+     document.write("<br> Value after decreament is: ", var1);
+     var1 = var1 % 3;
+     document.write("<br> The remainder is: ", var1);
+
+     // Question No 04 write a script to store ticket price in a variable and calculate the cost of buying 5 tickets to a movie.
+     var heading = 
+      document.createElement("h1");
+      heading.textContent = "Answer No 04";
+      document.body.appendChild(heading);
+     var costPerTicket = 600;
+     var numberOfTickets = 5;
+     var totalCost = costPerTicket * numberOfTickets;
+     document.write("<br> Total cost to buy", " ", numberOfTickets, " ", "tickets to a movie is"," ", totalCost, "PKR <br>");
+
+     // Question No 05 write a script to display multiplication table of any number in your browser.
+     var heading = 
+      document.createElement("h1");
+      heading.textContent = "Table of 4";
+      document.body.appendChild(heading);
 
      var num1 = 4;
      var num2 = 1;
@@ -98,13 +119,127 @@ num2++;
      document.write( num1, " ", "x", " ",num2, " ", "=", " ", product10, "<br>");
 
 
+     // Question No 06 make a temperature converter based on the steps here:
+     var heading = 
+      document.createElement("h1");
+      heading.textContent = "The Temperature Converter";
+      document.body.appendChild(heading);
+     var celsiusTemp = 25;
+     var fahrenheitTemp = (25 * 9/5) + 32;
+     document.write(celsiusTemp, "\u00B0C is", " ", fahrenheitTemp, "\u00B0F <br>");
 
+     var fahrenheitTemp2 = 90;
+     var celsiusTemp2 = (90 - 32) * 5/9;
+     document.write(fahrenheitTemp2, "\u00B0F is", " ", celsiusTemp2, "\u00B0C");
 
+    // Question No 07 implement checkout process of a shopping cart system for an E-commerce website.Store following in variables then compute total cost and show on browser.
+    var heading = 
+      document.createElement("h1");
+      heading.textContent = "Shopping Cart";
+      document.body.appendChild(heading);
+    var item1Price = 650;
+    document.write("Price of item 1 is", " ", item1Price, "<br>");
+                                                                                                                              
+    var item1Quantity = 3;
+    document.write("Quantity of item 1 is", " ", item1Quantity, "<br>");
 
+    var item2Price = 100;
+    document.write("Price of item 2 is", " ", item2Price, "<br>");
 
+    var item2Quantity = 7;
+    document.write("Quantity of item 2 is", " ", item2Quantity, "<br>");
 
+    var shoppingCharges = 100;
+    document.write("Shopping Charges:", " ", shoppingCharges, "<br> <br>");
 
+    var totalCostOfItem1 = item1Price * item1Quantity;
+    var totalCostOfItem2 = item2Price * item2Quantity;
+    var totalCostOfBothItems = totalCostOfItem1 + totalCostOfItem2;
+    var totalCost1 = totalCostOfBothItems + shoppingCharges;
+    document.write("Total cost of your order is:", " ", totalCost1);
 
+    // Question No 08 Store total marks and marks obtained by a student in 2 variables.Compute the percentage and show the result in your browser.
+    var heading = 
+      document.createElement("h1");
+      heading.textContent = "Marks Sheet";
+      document.body.appendChild(heading);
+    var totalMarks = 980;
+    document.write("Total marks:", " ", totalMarks, "<br>");
+    
+    var obtainedMarks = 804;
+    document.write("Marks obtained:", " ", obtainedMarks, "<br>");
 
-  </script>
+    var percentage = obtainedMarks * 100 / totalMarks;
+    document.write("Percentage:"," ", percentage);
+
+    // Question No 09 Write a script to convert the total currency to Pakistani Rupees.
+    var heading = 
+      document.createElement("h1");
+      heading.textContent = "Currency in PKR";
+      document.body.appendChild(heading);
+      var us1Dollar = 104.80;
+      var saudi1Riyal = 28;
+      var totalCurrency = (us1Dollar * 10) + (saudi1Riyal * 25);
+      document.write("Total Currency in PKR:", " ", totalCurrency);
+
+      // Question No 10 Write a program to initialize a variable with some number and do arthmetic in following sequence and perform all in a single expression.
+      var heading = 
+      document.createElement("h1");
+      heading.textContent = "Answer No 10";
+      document.body.appendChild(heading);
+      var number = 5;
+      var inOne = ((number + 2) * 10) / 2;
+      document.write("The Answer is:", " ", inOne);
+
+      // Question No 11 Write a script to make Age calculator.
+      var heading = 
+      document.createElement("h1");
+      heading.textContent = "Age Calculator";
+      document.body.appendChild(heading);
+      var currentYear = 2024;
+      document.write("Current Year:", " ", currentYear, "<br>");
+
+      var birthYear = 2005;
+      document.write("Birth Year:", " ", birthYear, "<br>");
+
+      var age1 = currentYear - birthYear;
+      var age2 = age1 - 1;
+      document.write("Your Age is: \"You are either", " ", age1, " ", "or", " ", age2, " ", "years old.\"");
+
+      // Question No 12 Calculate properties of a circle.
+      var heading = 
+       document.createElement("h1");
+       heading.textContent = "The Geometrizer";
+       document.body.appendChild(heading);
+       var radius = 20;
+       document.write("Radius of a circle:", " ", radius, "<br>");
+
+       var circumference = 2 * 3.142 * radius;
+       document.write("The circumference is:", " ", circumference, "<br>");
+
+       var area = 3.142 * (radius * radius);
+       document.write("The area is:", " ", area, "<br>");
+
+      // Question No 13 Write a script to make lifetime supply calculator.
+      var heading = 
+       document.createElement("h1");
+       heading.textContent = "The Lifetime Supply Calculator";
+       document.body.appendChild(heading);
+       var favouriteSnack = ("chocolate chip");
+       document.write("Favourite Snack:", " ", favouriteSnack, "<br>");
+
+       var currentAge = 15;
+       document.write("Current age:", " ", currentAge, "<br>");
+
+       var maximumAge = 65;
+       document.write("Estimated Maximum Age:", " ", maximumAge, "<br>");
+
+       var amountPerDay = 3;
+       document.write("Amount of snacks per day:", " ", amountPerDay, "<br>");
+
+       var yearsRemaining = maximumAge - currentAge;
+       var totalSnacks = yearsRemaining * amountPerDay;
+       document.write("\"You will need", " ", totalSnacks, " ", favouriteSnack," ", "to last you until the ripe old age of", " ", maximumAge, ".\"");
+       
+</script>
 </html>
